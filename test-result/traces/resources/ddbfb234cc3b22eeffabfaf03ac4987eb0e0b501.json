@@ -1,0 +1,1 @@
+{"success":true,"data":{"equipment":{"id":1,"name":"Excavator CAT 320","status":"Active","location":"Site A","lastUpdated":"2025-08-13T04:43:39.627Z"},"historyEntry":{"id":126,"equipmentId":1,"previousStatus":"Active","newStatus":"Active","timestamp":"2025-08-13T04:43:39.627Z","changedBy":"Operator"}}}

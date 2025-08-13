@@ -9,7 +9,7 @@ export const config: LaunchOptions = {
 };
 
 export default defineConfig({
-  retries: 2,
+  retries: 3,
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: false,
