@@ -32,7 +32,7 @@ jobs:
       - name: Upload test report
         uses: actions/upload-artifact@v4
         with:
-          name: test-report
+          name: reports-${{ matrix.browser }}-${{ github.run_attempt }}
           path: test-result/
           retention-days: 7
 
