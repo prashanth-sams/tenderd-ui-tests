@@ -6,7 +6,7 @@
 
 - **Previous Test Run Artifacts**: [View results](https://github.com/prashanth-sams/tenderd-ui-tests/actions/runs/16927978329)  
 - **Trigger a New Test Run**: [Run via GitHub Actions](https://github.com/prashanth-sams/tenderd-ui-tests/actions/workflows/main.yml)  
-- **HTML Test Reports** : [View reports](https://github.com/prashanth-sams/tenderd-api-tests/tree/main/test-result)  
+- **HTML Test Reports** : [View reports](https://github.com/prashanth-sams/tenderd-ui-tests/tree/main/test-result)  
 - **Recorded Test Execution Video**: [Watch video](https://github.com/prashanth-sams/tenderd-ui-tests/blob/main/UI%20Test%20Execution.mov)  
 
 
