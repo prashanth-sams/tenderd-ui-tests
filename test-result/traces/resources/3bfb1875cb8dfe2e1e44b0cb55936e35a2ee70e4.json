@@ -1,0 +1,1 @@
+{"success":true,"data":{"equipment":{"id":2,"name":"Bulldozer Komatsu D65","status":"Active","location":"Site B","lastUpdated":"2025-08-13T04:44:59.350Z"},"historyEntry":{"id":140,"equipmentId":2,"previousStatus":"Idle","newStatus":"Active","timestamp":"2025-08-13T04:44:59.350Z","changedBy":"Operator"}}}

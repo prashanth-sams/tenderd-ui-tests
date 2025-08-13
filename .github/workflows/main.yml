@@ -28,3 +28,9 @@ jobs:
       - name: Run Playwright tests on ${{ matrix.browser }}
         run: |
           ENV=ci npx cucumber-js --config=config/cucumber.js --tags "@smoke" --format-options '{"IgnoreBrowserErrors": true}' --world-parameters '{"browser":"${{ matrix.browser }}"}'
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-results
+          path: test-result/
