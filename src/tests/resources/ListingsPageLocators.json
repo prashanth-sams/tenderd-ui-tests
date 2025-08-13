@@ -1,0 +1,43 @@
+{
+    "name": "Listings Page",
+    "webElements": [
+        {
+            "elementName": "header",
+            "selectorValue": "h2"
+        },
+        {
+            "elementName": "spinner",
+            "selectorValue": ".animate-spin"
+        },
+        {
+            "elementName": "loadertext",
+            "selectorValue": "Loading equipment..."
+        },
+        {
+            "elementName": "tableRows",
+            "selectorValue": "tbody tr"
+        },
+        {
+            "elementName": "lastEquipmentDetails",
+            "selectorValue": "tbody tr:last-child td"
+        },
+        {
+            "elementName": "firstEquipmentDetails",
+            "selectorValue": "tbody tr:first-child td"
+        }
+    ],
+    "constants": [
+        {
+            "name": "url",
+            "value": "/"
+        },
+        {
+            "name": "title",
+            "value": "Tenderd - Equipment Management"
+        },
+        {
+            "name": "header",
+            "value": "Equipment List"
+        }
+    ]
+}

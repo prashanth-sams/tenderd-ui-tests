@@ -1,0 +1,43 @@
+{
+    "name": "Add Equipment Page",
+    "webElements": [
+        {
+            "elementName": "header",
+            "selectorValue": "h3"
+        },
+        {
+            "elementName": "equipmentName",
+            "selectorValue": "Equipment Name *"
+        },
+        {
+            "elementName": "initialStatus",
+            "selectorValue": "Initial Status *"
+        },
+        {
+            "elementName": "location",
+            "selectorValue": "Location *"
+        },
+        {
+            "elementName": "addEquipmentSubmit",
+            "selectorValue": "button[type='submit']:has-text('Add Equipment')"
+        },
+        {
+            "elementName": "addNewEquipmentHeading",
+            "selectorValue": "h1:has-text('Add New Equipment')"
+        },
+        {
+            "elementName": "successMessage",
+            "selectorValue": "Equipment added successfully"
+        }
+    ],
+    "constants": [
+        {
+            "name": "url",
+            "value": "/"
+        },
+        {
+            "name": "header",
+            "value": "Add New Equipment"
+        }
+    ]
+}

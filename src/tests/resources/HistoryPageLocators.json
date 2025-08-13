@@ -1,0 +1,27 @@
+{
+    "name": "History Page",
+    "webElements": [
+        {
+            "elementName": "header",
+            "selectorValue": "h3"
+        },
+        {
+            "elementName": "operator",
+            "selectorValue": "Changed by:"
+        },
+        {
+            "elementName": "xcloseButton",
+            "selectorValue": "//h3/following-sibling::button"
+        }
+    ],
+    "constants": [
+        {
+            "name": "url",
+            "value": "/"
+        },
+        {
+            "name": "header",
+            "value": "Status History"
+        }
+    ]
+}

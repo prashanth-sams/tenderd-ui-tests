@@ -1,0 +1,32 @@
+{
+  "name": "tenderd-ui-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:report:open": "playwright show-report --open",
+    "test:report:generate": "playwright show-report --output=report.html",
+    "local": "ENV=local ts-node runner.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "8.4.1",
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1",
+    "tsconfig-paths": "^4.2.0",
+    "winston": "^3.13.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "@cucumber/pretty-formatter": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "supports-color": "^9.4.0",
+    "ts-node": "^10.9.2"
+  }
+}

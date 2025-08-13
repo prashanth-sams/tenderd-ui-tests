@@ -1,0 +1,27 @@
+{
+    "name": "Common Page",
+    "webElements": [
+        {
+            "elementName": "header",
+            "selectorValue": "h1"
+        },
+        {
+            "elementName": "addEquipment",
+            "selectorValue": "header button:has-text('Add Equipment')"
+        },
+        {
+            "elementName": "refresh",
+            "selectorValue": "Refresh"
+        }
+    ],
+    "constants": [
+        {
+            "name": "url",
+            "value": "/"
+        },
+        {
+            "name": "header",
+            "value": "Equipment Status Tracker"
+        }
+    ]
+}

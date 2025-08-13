@@ -1,0 +1,519 @@
+[
+  {
+    "description": "    As a user, I want to add new equipment\n    So that I can keep track of all available equipment",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-equipment;add-new-equipment",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Add new equipment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 289399124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the Equipment Status Tracker \"Listings\" page",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1080433249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait until the equipment loading completes",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40503583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on the \"Add Equipment\" button",
+            "match": {
+              "location": "src/tests/steps/CommonSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 649649915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I add \"Backhoe Loader Case 580N\" with status \"Idle\" and location \"Site A\"",
+            "match": {
+              "location": "src/tests/steps/AddEquipmentSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2477549458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Backhoe Loader Case 580N\" in the equipment list with status \"Idle\" and location \"Site A\"",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 656095084
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 201041
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-equipment;add-new-equipment",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Add new equipment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175936167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the Equipment Status Tracker \"Listings\" page",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1062802040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait until the equipment loading completes",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35960166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on the \"Add Equipment\" button",
+            "match": {
+              "location": "src/tests/steps/CommonSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 642164500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I add \"Bulldozer CAT D6\" with status \"Active\" and location \"Site B\"",
+            "match": {
+              "location": "src/tests/steps/AddEquipmentSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2474291708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Bulldozer CAT D6\" in the equipment list with status \"Active\" and location \"Site B\"",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653814582
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40124
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-equipment;add-new-equipment",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Add new equipment",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 102237500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the Equipment Status Tracker \"Listings\" page",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1026814416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait until the equipment loading completes",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34964542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on the \"Add Equipment\" button",
+            "match": {
+              "location": "src/tests/steps/CommonSteps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 636129750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I add \"Forklift Toyota 8FGCU25\" with status \"Under Maintenance\" and location \"Site C\"",
+            "match": {
+              "location": "src/tests/steps/AddEquipmentSteps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2640955250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Forklift Toyota 8FGCU25\" in the equipment list with status \"Under Maintenance\" and location \"Site C\"",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 652887291
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68416
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-equipment",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Add Equipment",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "src/tests/features/add_equipment.feature"
+  },
+  {
+    "description": "    As a user, I want to update the status of existing equipment\n    So that I can reflect their current availability",
+    "elements": [
+      {
+        "description": "",
+        "id": "update-equipment-status;update-equipment-status",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Update equipment status",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 106753208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the Equipment Status Tracker \"Listings\" page",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1072573958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait until the equipment loading completes",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34930541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I change the existing equipment status to \"Idle\"",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1239461250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the status should be \"Idle\" for the selected equipment items",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663050665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the history of status changes for the selected equipment items one by one with the \"Idle\"",
+            "match": {
+              "location": "src/tests/steps/HistorySteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2559883292
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73625
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "update-equipment-status;update-equipment-status",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Update equipment status",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118907666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on the Equipment Status Tracker \"Listings\" page",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057988666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I wait until the equipment loading completes",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32669458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I change the existing equipment status to \"Active\"",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1233859415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the status should be \"Active\" for the selected equipment items",
+            "match": {
+              "location": "src/tests/steps/ListingsSteps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 670942125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see the history of status changes for the selected equipment items one by one with the \"Active\"",
+            "match": {
+              "location": "src/tests/steps/HistorySteps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2560684625
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72833
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "update-equipment-status",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Update Equipment Status",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "src/tests/features/update_status_and_check_history.feature"
+  }
+]
